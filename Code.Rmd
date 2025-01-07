@@ -1,0 +1,185 @@
+---
+title: "R_practice"
+output: html_document
+date: "2025-01-03"
+---
+
+```{r}
+library(tidyr)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(haven)
+library(readr)
+library(ggpubr)
+library(ggpubr)
+Sys.setenv(LANG="en")
+#install.packages("ggpubr")
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+###Basic Operations in R 
+```{r}
+exp(1)
+
+sin(pi/2)
+cos(pi/2)
+max(4,2,5,1)
+min(4,2,5,1)
+sum(4,2,5,1)
+prod(4,2,5,1)
+sqrt(16)
+factorial(4) # "4 factorial", 4! --> 1*2*3*4
+choose(5,2) # "5 choose 2" 
+```
+
+
+
+###Data Types in R (Numeric, String, Boolean)
+```{r}
+#Numeric
+a<-1  # <- assignment operator, it stores specific value that we may want to use later
+b<-2.71
+
+#Strings
+b<-"Hello"
+c<-"Hello"
+d<-"World"
+
+message<-paste(c,d)
+message
+
+#Booleans
+x<-FALSE
+y<-TRUE
+
+is_logical(x)
+
+```
+
+##Lists and Vectors in R
+
+```{r}
+# Create a numeric vector of favorite numbers
+favorite_numbers <- c(2,7,11,13)
+print(favorite_numbers)
+
+# Create a list with name, age, and favorite numbers
+person_info <- list(name = "John Doe", age = 25, favorite_numbers = favorite_numbers)
+print(person_info)
+
+
+#Let create another vector
+num<-c(1,"hi",3.6, "Good morning")
+str(num)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+# Creating a data frame
+my_data_frame <- data.frame(
+  id = c(1, 2, 3),                # Numeric vector
+  name = c("Alice", "Bob", "Charlie"),  # Character vector
+  age = c(25, 30, 35)             # Numeric vector
+)
+
+# Accessing individual columns as vectors
+id_vector <- my_data_frame$id
+name_vector <- my_data_frame$name
+age_vector <- my_data_frame$age
+
+```
+
+```{r}
+#Data frames in R
+data()
+mydata<-trees
+
+head(mydata)
+mydata[c(2,3,4),]
+mydata[,c(2,3)]
+
+```
+
+```{r}
+#loading csv and SAS data frames in R
+
+df1<-read.csv("C:/Users/localuser/Documents/Nutrition_planetary_health_R/R_practice_session_Nutrition_Planetary_Health_Group/R_practic1.csv",dec = ",",sep = ";",header = T)
+
+
+df2<-read_sas("C:/Users/localuser/Documents/Nutrition_planetary_health_R/R_practice_session_Nutrition_Planetary_Health_Group/skinproduct_vfdemo.sas7bdat")
+names(df2$ProductKey)
+
+
+str(df1)
+
+df1$age<-as.numeric(df1$age)
+```
+
+```{r}
+df1<-df1%>%mutate(sex=case_when(sex=="m"~"male", sex =="Male"~"male", sex=="f"~"female",sex=="Female"~"female", TRUE~sex))
+df1$sex<-as.factor(df1$sex)
+
+unique(df1$rdt)
+```
+
+
+```{r}
+##Let us start working with ggplot 
+
+ggplot(df1, aes(x=sex, y=height.cm.)) + geom_boxplot()
+
+table(df1$height.cm., useNA = "always")
+df1<-df1[-408,]
+
+
+##improving the ggplot
+
+ggplot(na.omit(df1), aes(x=sex, y=height.cm., fill=rdt)) + geom_boxplot() +labs(X="Sex of the child", y = "Hright (centimeters)", fill="Sex", title = "Height of male vs female") +theme_bw()
+
+df1$rdt<-as.factor(df1$rdt)
+
+```
+```{r}
+#recoding dental carries
+df1<-df1%>%mutate(carries=case_when(dental_carries=="1"~"Yes", dental_carries =="0"~"No",                                                                                            dental_carries=="Nil"~"No", TRUE~"Yes"))
+df1$carries<-as.factor(df1$carries)
+```
+
+
+```{r}
+##geom_point
+ggplot(na.omit(df1), aes(x=age, y=hemoglobin)) + geom_point() +theme_bw() 
+
+ggplot(na.omit(df1), aes(x=age, y=hemoglobin)) + geom_point(size=2, shape =24, color = "blue", fill ="green") +theme_bw() 
+```
+
+
+```{r}
+#more using geom_point
+
+ggplot(na.omit(df1), aes(x=age, y=height.cm.)) + geom_point(aes(size = hemoglobin, color=rdt)) +theme_bw() 
+
+```
+
+
+```{r}
+##geom_smooth
+ggplot(na.omit(df1), aes(x=age, y=hemoglobin)) + geom_point()+geom_smooth(method = "lm") +theme_bw() + stat_cor(method = "pearson")
+
+
+```
+
+
+```{r}
+##geom_line
+ggplot(na.omit(df1), aes(x=age, y=hemoglobin))  +theme_bw()+facet_wrap(~district)+ geom_smooth(method)
+table(df1$rdt)
+
+```
+

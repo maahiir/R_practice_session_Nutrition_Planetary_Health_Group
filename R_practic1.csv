@@ -1,0 +1,451 @@
+sr.no;district;age;sex;weight(kg);height(cm);rdt;hemoglobin;scabies;dental_carries
+1;Ilum;9,3;Female;22;130;PF +ve;9;0;0
+2;Tatooine;5,4;Male;16;111;Negative;11,5;0;0
+3;Tython;6;Female;16,1;109;Negative;11,5;0;0
+4;Bespin;6;Female;12;100;Negative;11;0;0
+5;Tatooine;7;Female;19;118;Negative;8;0;0
+6;Ach-to;7,3;Female;21;130;PF +ve;10;0;0
+7;Bespin;5;Female;16;108;PF +ve;11;0;0
+8;Alderaan;5,8;Male;15,1;108;Negative;13;0;0
+9;Ach-to;5,7;Male;17;111;Negative;9;0;0
+10;Hoth;9;Male;17,1;119;Negative;11;0;0
+11;Alderaan;9,3;Male;20;126;Negative;12;0;1
+12;Bespin;9;Female;23,1;134;Negative;9,5;0;0
+13;Ilum;8;Female;22;124;Negative;11;0;0
+14;Hoth;7;Male;14,1;106;Negative;11,5;0;1
+15;Ilum;7;Female;15,1;113;Negative;13;0;1
+16;Ossus;8;Female;22;123,5;Negative;12;0;0
+17;Jedha;6;Female;14,1;108;PF +ve;11,5;0;0
+18;Tython;6;Male;17;114;Negative;12,5;0;1
+19;Alderaan;11;Male;24;131;PF +ve;10;0;1
+20;Bespin;6,5;Female;13;105;Negative;11;0;0
+21;Bespin;5,9;Female;14;107;Negative;9,5;0;0
+22;Alderaan;8;Female;16,1;113;Negative;10,5;0;0
+23;Bespin;12;Female;24;133;PF +ve;11,5;0;1
+24;Jedha;8;Male;19;117,4;Negative;11,5;0;0
+25;Ach-to;11;Male;19;122;Negative;8,5;0;1
+26;Hoth;11;Male;23;135;PF +ve;10;0;0
+27;Endor;8;Female;27;120;PF +ve;11,5;0;1
+28;Coruscant;10;Female;22,1;128;PF +ve;10,5;0;1
+29;Tython;5,7;Male;13;105,5;Negative;11;0;0
+30;Dagobah;9;Female;21;127;PF +ve;9;0;1
+31;Hoth;9;f;24;125;PF +ve;11;0;1
+32;Endor;10;m;19,1;124;Negative;9;0;0
+33;Bespin;10;m;20;123;Negative;12,5;0;1
+34;Dagobah;14;m;39;157,5;PF +ve;11,5;0;0
+35;Bespin;10;f;24;128,5;PF +ve;11,5;0;0
+36;Tython;6;f;13,1;104,7;PF +ve;9;0;0
+37;Endor;5;m;16;104;PF +ve;10;0;1
+38;Coruscant;10;f;20;125,4;PF +ve;12,6;0;1
+39;Ach-to;11,1;m;28;131,5;PF +ve;10,5;0;0
+40;Tatooine;10;m;21;125,5;PF +ve;12;0;0
+41;Coruscant;5;f;16;107,5;Negative;10;0;1
+42;Jedha;12;m;25;134;Negative;11,5;0;0
+43;Coruscant;7;m;17,1;113,5;Negative;9,5;0;0
+44;Ilum;9;m;21;124;Negative;11;0;0
+45;Jedha;5,3;m;15;106,4;Negative;10,5;1;0
+46;Bespin;7;m;14,5;105;Negative;11;0;1
+47;Jedha;12;m;35;150,7;Negative;10,5;0;0
+48;Jedha;10;f;25;126,6;Negative;11;0;1
+49;Coruscant;8,3;f;19;115,3;Negative;10;0;0
+50;Alderaan;9;m;26;125,2;Negative;9;0;1
+51;Endor;5;m;15;105,5;Negative;10;0;1
+52;Coruscant;7;m;17;116;Negative;10,5;0;0
+53;Hoth;9;f;20;121,2;Negative;12;0;0
+54;Alderaan;10;m;18;118,5;Negative;10,5;0;1
+55;Endor;8;m;15;110;Negative;11,5;0;1
+56;Alderaan;10;m;26;134;Negative;10,5;0;0
+57;Ilum;9,3;m;22;124;Negative;12;0;0
+58;Ach-to;5;m;14;105,5;Negative;10,5;0;0
+59;Bespin;8;f;17;122;Negative;12;0;1
+60;Jedha;9,8;m;22;127,5;PF +ve;12;0;1
+61;Dagobah;8;m;20;123;PF +ve;11,5;0;1
+62;Ach-to;10;m;25;138;PF +ve;10;0;0
+63;Ilum;7;m;17;108,6;PF +ve;7,5;0;0
+64;Tatooine;6;m;15;115;PF +ve;10;0;1
+65;Tython;7;f;20;118;PF +ve;10,5;0;0
+66;Tatooine;8,3;m;17,1;121,4;PF +ve;9,5;0;0
+67;Bespin;12;m;23;131,1;PF +ve;12;0;0
+68;Alderaan;10;f;25;129;PF +ve;12;0;1
+69;Ossus;8;f;18,5;119,7;PF +ve;10,5;0;0
+70;Endor;5;m;14;115;PF +ve;11;1;0
+71;Ach-to;12;f;25;136,5;Negative;10,5;0;1
+72;Jedha;8;f;21;123,1;Negative;9,5;1;0
+73;Tatooine;7;m;22;122,5;Negative;10,5;0;0
+74;Bespin;10;f;33;149,5;PF +ve;13,5;0;0
+75;Coruscant;7;f;13;105;Negative;13;0;0
+76;Tatooine;10;m;22;126;Negative;8,5;0;0
+77;Alderaan;9;m;20,5;124;Negative;7;0;0
+78;Coruscant;9;f;16,5;114;Negative;8,5;1;0
+79;Dagobah;8;f;22;127;Negative;9,5;1;0
+80;Jedha;11;m;21;121,3;PF +ve;10;0;0
+81;Dagobah;12;f;33,5;114;Negative;12,5;0;0
+82;Tython;11;m;22,5;123,5;Negative;9,5;0;0
+83;Hoth;7;f;16;122;Negative;13;0;0
+84;Alderaan;5;f;19;119,4;Negative;10,5;1;0
+85;Bespin;6;f;15;114,7;Negative;13,5;0;0
+86;Ossus;8;m;19;118,7;PF +ve;11,5;0;0
+87;Bespin;10;f;36;148,3;Negative;8,5;0;0
+88;Tython;11;f;34;134,6;Negative;12;0;0
+89;Ach-to;9;m;20,5;116;PF +ve;8,5;0;0
+90;Endor;12;m;21;123,3;Negative;7;0;0
+91;Ach-to;6;m;17;114,4;Negative;11,5;0;0
+92;Tatooine;6;m;19;114,5;Negative;12,5;0;0
+93;Tatooine;12;f;35;148,5;Negative;11,5;0;0
+94;Tython;8;m;22;129,5;PF +ve;9;0;0
+95;Tython;7;f;21,5;126,5;Negative;9;0;0
+96;Ossus;7;f;23;131;PF +ve;10;0;0
+97;Tython;7;f;22;129;PF +ve;11;0;0
+98;Ossus;7;f;19,5;125,5;PF +ve;9;0;0
+99;Hoth;12;f;26;131,5;PF +ve;9,5;0;0
+100;Hoth;11;f;18;116,2;Negative;9,5;0;0
+101;Endor;6;f;15;101;Negative;12,5;0;0
+102;Bespin;8;m;14;117;Negative;13;0;0
+103;Dagobah;11;f;19;120;PF +ve;11,5;0;0
+104;Hoth;14;f;27;135;Negative;14;0;0
+105;Alderaan;10;f;18,5;120,5;Negative;12,6;0;1
+106;Hoth;7;f;20;114,2;Negative;8;0;0
+107;Alderaan;9;f;25;133,2;Negative;12,6;0;0
+108;Ilum;8;f;18,5;113,5;Negative;8;0;0
+109;Hoth;8;f;16;112,7;Negative;11;0;0
+110;Dagobah;8;f;25,5;130,7;Negative;12;0;0
+111;Jedha;7;m;19;112,6;Negative;12;0;0
+112;Dagobah;8;m;18,5;117,5;Negative;12,5;0;1
+113;Dagobah;8;m;19,5;124;Negative;9;0;1
+114;Ach-to;8;f;25;132,3;Negative;10;0;1
+115;Tatooine;8;m;16;111,7;Negative;11,5;0;0
+116;Jedha;7;f;18,5;118,9;Negative;10;0;0
+117;Bespin;6;m;16;110,3;Negative;9;0;0
+118;Ilum;6;f;15;103;Negative;8;0;0
+119;Jedha;7;m;19;114;Negative;13;0;0
+120;Dagobah;6;m;15,6;109;Negative;11,5;0;0
+121;Hoth;8;m;18,5;116,8;Negative;12,6;0;1
+122;Jedha;6;m;15,5;102,1;Negative;10,5;0;0
+123;Alderaan;6;m;16,3;104,1;Negative;10,5;0;0
+124;Tython;6;m;15;100,2;Negative;10;0;0
+125;Tython;7;f;15;105,3;Negative;10;0;1
+126;Bespin;7;f;16;107,7;Negative;12,5;0;0
+127;Jedha;6;m;14,5;111,5;Negative;10;0;0
+128;Endor;9;m;19;120,6;PF +ve;10;1;1
+129;Ilum;13;m;34;133,7;Negative;11,5;0;0
+130;Jedha;9;m;22,5;122,5;Negative;12;0;0
+131;Endor;8;f;21;121,7;PF +ve;12;0;1
+132;Ilum;10;m;35;142,3;Negative;12;0;0
+133;Alderaan;11;m;30;136,5;Negative;10;0;0
+134;Hoth;13;m;32,1;139,5;PF +ve;13;0;0
+135;Ossus;8;f;17;114,5;Negative;11;Nil;Nil
+136;Tatooine;6;m;17,5;116;Negative;10;Nil;Right & Left lower first molar, first premolar, Right & Left second upper incisor
+137;Tython;9;m;21;122;Negative;8,5;Nil;Right & Left first premolar
+138;Ach-to;8;f;22,2;121,7;Negative;11;Nil;Nil
+139;Jedha;7;f;15;111,7;Negative;11,5;Nil;Nil
+140;Hoth;6;f;14,5;111,3;Negative;11,5;Nil;Left first lower molar
+141;Endor;9;m;17,5;119;Negative;9;Nil;Right lower first molar
+142;Ossus;10;f;24;131,7;PF +ve;14,5;NIl;Left upper first molar
+143;Ossus;12;m;25,1;135,8;Negative;14;Nil;Nil
+144;Bespin;13;m;32;144,5;Negative;10,9;Nil;Nil
+145;Hoth;9;f;20;117,3;Negative;6,8;Nil;Nil
+146;Ossus;6;f;14;108,4;Negative;10;Nil;Right lower first molar
+147;Tython;7;m;17,5;117,3;Negative;9;Nil;Nil
+148;Ach-to;8;m;22;123;Negative;10,5;Nil;Left first lower premolar, Right second molar, first premolar
+149;Tython;14;f;25,1;141;PF +ve;9;Nil;Nil
+150;Ossus;10;m;22;130,2;PF +ve;10,5;Nil;Nil
+151;Ach-to;8;m;31;140,8;Negative;9,5;Nil;Nil
+152;Ilum;7;m;20;118;PF +ve;8;Nil;Nil
+153;Bespin;8;m;22,5;129;Negative;7,5;Nil;Nil
+154;Bespin;7;m;18;115;Negative;12,8;Nil;Nil
+155;Bespin;10;f;19;121,4;PF +ve;10,5;Nil;Nil
+156;Bespin;12;f;23,1;132;Negative;11;Nil;Nil
+157;Ilum;6;m;16;107,4;Negative;14,5;Nil;Nil
+158;Hoth;14;m;42;149,6;Negative;12;Nil;Nil
+159;Tython;10;m;21;124,6;Negative;7;Nil;Nil
+160;Bespin;6;f;15,8;113,6;Negative;12;Nil;Nil
+161;Dagobah;11;f;22;133;PF +ve;12;Nil;Nil
+162;Bespin;6;f;17;113;Negative;10,5;Nil;Left Lower first premolar
+163;Tatooine;6;f;17,3;112,6;Negative;9;Nil;Nil
+164;Ossus;6;m;17;110,9;Negative;8,5;Nil;Nil
+165;Bespin;13;f;28,1;140,7;Negative;11,5;Nil;Nil
+166;Endor;12;f;27,1;137,6;Negative;10,5;Nil;Nil
+167;Ossus;14;f;28;136,4;Negative;9;Nil;Right upper first premolar
+168;Tython;11;f;27,1;136;PF +ve;11;Nil;Nil
+169;Jedha;9;m;18,5;117,1;Negative;10,5;Nil;Right & Left Upper first molar
+170;Jedha;10;f;26;137,4;Negative;8,5;Nil;Nil
+171;Ach-to;10;f;19;121,6;Negative;9,5;Nil;Nil
+172;Ach-to;12;m;25;133,5;Negative;10,5;Nil;Nil
+173;Ach-to;10;m;24,1;136,2;Negative;13,5;Nil;Nil
+174;Ilum;15;m;36;148,2;Negative;12;Nil;Nil
+175;Jedha;11;m;26,1;131,1;PF +ve;11;Nil;Nil
+176;Endor;12;m;28;134;NA;NA;Nil;Nil
+177;Bespin;13;m;26,1;133,8;Negative;11;Nil;Nil
+178;Tatooine;6;f;16;105,1;Negative;13;Nil;Nil
+179;Bespin;12;f;23;137,6;Negative;13;Nil;Nil
+180;Endor;7;m;16;110;PV +ve;13;Nil;Nil
+181;Tython;10;f;20,1;119,7;PF +ve;13,5;Nil;Nil
+182;Tython;10;m;24;131,3;PF +ve;10,5;Nil;Nil
+183;Endor;11;f;29;136,5;Negative;13,5;Nil;Nil
+184;Dagobah;12;m;24;132;Negative;10,5;Nil;Nil
+185;Jedha;7;m;22,5;126;Negative;13,5;Nil;Nil
+186;Ach-to;13;m;31,1;144,5;PF +ve;12;Nil;Nil
+187;Dagobah;10;m;24;131,2;Negative;9;Nil;Nil
+188;Bespin;8;m;24;126,7;Negative;14;Nil;Nil
+189;Dagobah;7;m;18;117,6;Negative;10,5;Nil;Nil
+190;Hoth;8;f;16;111,6;Negative;12,5;Nil;Nil
+191;Tython;12;m;22,1;128,4;Negative;7,5;Nil;Nil
+192;Hoth;6;m;21,5;121,3;Negative;8;Nil;Right Lower first mloar, Left upper first premolar
+193;Alderaan;7;m;23;123,9;PF +ve;9;Nil;Right & Left lower first molar
+194;Jedha;11;f;26;128,5;Negative;10,5;Nil;Nil
+195;Jedha;9;m;25;126,2;PF +ve;8,5;Nil;Nil
+196;Tython;7;f;19;121,9;Negative;7,5;Nil;Nil
+197;Jedha;8;m;25,5;122,7;Negative;7,5;Nil;Left lower first molar first premolar, Right lower molar
+198;Bespin;7;f;19;117,4;PFPV +ve;10;Nil;Nil
+199;Hoth;9;m;27;134,4;Negative;14,5;Nil;Nil
+200;Tython;7;f;18;121;PF +ve;7,5;Nil;Upper Incisor second
+201;Endor;7;f;19,5;118,6;Negative;13;Nil;Right & Left lower firt molar
+202;Ilum;11;m;19;126,8;Negative;12,5;Nil;Nil
+203;Jedha;8;m;17,5;114,2;Negative;10;Nil;Left Lower first molar
+204;Ilum;12;f;29;135,9;Negative;13;Nil;Nil
+205;Coruscant;6;f;15;103,4;Negative;9;Nil;Nil
+206;Dagobah;10;f;23;125,7;Negative;13;Nil;Nil
+207;Alderaan;11;f;28;139,2;Negative;13;Nil;Nil
+208;Ilum;8;f;25;134,6;PF +ve;10;Nil;Left upper first molar
+209;Coruscant;10;f;20;126,6;PF +ve;10,5;Nil;Right Lower second Molar
+210;Ilum;10;f;26,5;125,5;PF +ve;9,5;Nil;Nil
+211;Tatooine;7;m;20,5;122,6;Negative;9;Nil;Nil
+212;Alderaan;9;m;20;119;Negative;9,5;Nil;Nil
+213;Alderaan;10;m;25;134,6;Negative;10,5;Nil;Right upper first molar
+214;Bespin;6;f;15,1;107,3;Negative;10,5;Nil;Nil
+215;Alderaan;6;m;14;97,8;Negative;8,5;Nil;Nil
+216;Ossus;6;f;15,4;110;PF +ve;10,5;Nil;Nil
+217;Alderaan;7,4;f;16;113,6;Negative;13;Nil;Nil
+218;Tatooine;2,2;f;18;119;PF +ve;8,5;Nil;Nil
+219;Jedha;7,7;m;24;129,7;Negative;13,5;Nil;Left Lower first molar, Right lower first molar, first premolar
+220;Hoth;7,3;m;16;110,6;PFPV +ve;10,5;Nil;Nil
+221;Tatooine;10,2;f;17;115,7;Negative;11,5;Nil;Left Lower first molar
+222;Alderaan;6,6;m;17;112;Negative;11;Nil;Nil
+223;Hoth;9,6;f;31;136,6;Negative;12,5;Nil;Nil
+224;Coruscant;9;f;13;92,1;Negative;14;Nil;Nil
+225;Alderaan;12,3;f;30;136,6;Negative;10,5;Nil;Nil
+226;Hoth;13,3;f;31;137,7;Negative;10,5;Nil;Right Lower second molar
+227;Endor;10,3;f;25;130,5;PF +ve;10;Nil;Right lower second Molar
+228;Ossus;6,3;f;19;118,2;Negative;12;Nil;Nil
+229;Tatooine;7,7;f;20;116,2;Negative;8;Nil;Nil
+230;Alderaan;5,3;f;15;96,4;PF +ve;9,4;Nil;Nil
+231;Ossus;12,8;f;40;145,3;Negative;11;Nil;Nil
+232;Tython;10,7;m;30;136,5;PF +ve;11;Nil;Nil
+233;Ilum;5;m;13;91;Negative;8;Nil;Nil
+234;Tython;5,5;f;15;103,5;PF +ve;9;Nil;Right & Left Lower First & Second Molar, Incisor
+235;Endor;7;f;19;114;Negative;9;Nil;Nil
+236;Bespin;13,7;f;19;114,5;Negative;7;Nil;Nil
+237;Bespin;7,5;f;16;113,6;PF +ve;11;Nil;Nil
+238;Ach-to;10,3;f;35;140;PF +ve;12,5;Nil;Right upper first premolar
+239;Coruscant;7,5;f;17;111;PF +ve;11;Nil;Right Lower first premolar, Left lower first molar
+240;Bespin;8,7;m;24;124,5;Negative;7,5;Nil;Nil
+241;Dagobah;8;f;25;113,5;PF +ve;7;Nil;Nil
+242;Ach-to;11,3;f;32;142,5;Negative;10;Nil;Nil
+243;Jedha;8;m;22,5;133,7;PFPV +ve;11;Nil;Nil
+244;Tatooine;7,8;m;20;116,5;PF +ve;9,5;Nil;Right lower first molar
+245;Dagobah;6;f;15;102,9;Negative;10;Nil;Right & Left lower first molar
+246;Tatooine;9;m;21;123;PF +ve;9;Nil;Nil
+247;Hoth;7;m;20;120,4;PFPV +ve;12,5;Nil;Right & Left upper & lower first molar
+248;Dagobah;7;m;25;125,2;PF +ve;14;Nil;Nil
+249;Ilum;6;f;21;122;PF +ve;7,5;Nil;Nil
+250;Alderaan;9;m;20,1;124,4;Negative;7,5;Nil;Right & Left lower first molar, Right & Left Upper first molar
+251;Jedha;8;f;17;110;PF +ve;10;Nil;Nil
+252;Jedha;14;f;35;140,6;Negative;8;Nil;Nil
+253;Hoth;10;f;25;133,3;Negative;8,5;Nil;Left Lower first molar
+254;Tatooine;7,4;m;18,5;110,3;PF +ve;10,5;Nil;Nil
+255;Alderaan;7;m;16,5;110;Negative;14,5;Nil;Left first lower premolar, Right first upper & lower molar
+256;Coruscant;7;m;17;110,4;PFPV +ve;8;Positive;Nil
+257;Ach-to;6;f;15;104,7;Negative;13;Nil;Nil
+258;Alderaan;7;f;17,1;113,2;Negative;14;Nil;Nil
+259;Ossus;6;f;16,1;108;PFPV +ve;8,5;Nil;Nil
+260;Dagobah;14;f;33;134,2;PF +ve;7;Nil;Nil
+261;Bespin;7;f;20;119,3;PF +ve;7,5;Nil;Nil
+262;Ach-to;6;m;24;124,9;PF +ve;10;Nil;Nil
+263;Dagobah;6;m;21;118,9;PF +ve;7,5;Nil;Right lower second molar
+264;Tatooine;14;f;33,1;137,5;PF +ve;11;Nil;Nil
+265;Alderaan;10;f;35;141,1;PV +ve;9,5;Nil;Nil
+266;Ossus;13;f;37;140,5;PFPV +ve;11;Nil;Nil
+267;Coruscant;7;f;19,1;112,3;Negative;13;Nil;Nil
+268;Dagobah;6;f;15,1;110;Negative;7;Nil;Nil
+269;Endor;8,3;m;23;126,6;Negative;10;Nil;Nil
+270;Ilum;6;f;23;115,2;PFPV +ve;7,5;Nil;Right & Left lower first premolar
+271;Bespin;9;f;27;128,3;PF +ve;10;Nil;Nil
+272;Ach-to;10;m;27,1;138,2;PF +ve;9;Nil;Nil
+273;Bespin;9,4;m;23;127,4;Negative;10;Nil;Nil
+274;Endor;10,3;m;23,1;128,7;Negative;14;Nil;Rigth & Left lower second & third molar
+275;Bespin;6;m;16,9;102,5;PFPV +ve;14,5;Nil;Nil
+276;Tatooine;8;f;20;116;PF +ve;11;Nil;Nil
+277;Ossus;9;m;17,1;115,4;Negative;10;Nil;Nil
+278;Alderaan;7;f;20;122,5;PF +ve;13;Nil;Nil
+279;Coruscant;6;f;20;113,5;PF +ve;11;Nil;Nil
+280;Tatooine;7;f;23;125,8;PF +ve;6,5;Nil;Nil
+281;Hoth;7;f;17;111;PF +ve;9,5;Nil;Nil
+282;Jedha;6;f;13;110,1;Negative;11;Nil;Nil
+283;Coruscant;8;f;22,1;125,1;PF +ve;10;Nil;Nil
+284;Bespin;7;f;15;102,7;PV +ve;9;Nil;Nil
+285;Hoth;6;f;15;106,5;Negative;11,5;Nil;Right & Left kower first premolar
+286;Ach-to;10;m;28,1;128,8;PF +ve;12;Nil;Nil
+287;Jedha;7;m;13;98,2;PF +ve;7,5;Nil;Nil
+288;Tython;6;f;12,1;102,6;PF +ve;11;Nil;Nil
+289;Hoth;6;m;20;116,2;Negative;10,5;Nil;Right & Left First and second upper incisor
+290;Tatooine;8;f;15,4;117,7;PF +ve;9;Nil;Nil
+291;Endor;9;f;20,1;124,6;PF +ve;9;Nil;Nil
+292;Alderaan;6;f;17,1;109,5;PF +ve;10,5;Nil;Nil
+293;Endor;5;m;15;101,9;PF +ve;10;Nil;Nil
+294;Endor;10;m;20,4;120,3;PF +ve;14,5;Nil;Nil
+295;Ilum;8;m;16;104;PF +ve;12;Nil;Nil
+296;Coruscant;12;m;30;134;PF +ve;9;Nil;Nil
+297;Tatooine;7;m;17;106;PF +ve;9,5;Nil;Nil
+298;Tatooine;7;m;19;113,6;PFPV +ve;11;Nil;Nil
+299;Endor;8;m;24;126,1;PF +ve;13;Nil;Nil
+300;Tython;7;m;17;109,8;Negative;9;Nil;Nil
+301;Endor;6;m;16,1;104,8;Negative;10,5;Nil;Right Upper Incisors
+302;Coruscant;8;f;21;117;Negative;13,5;Nil;Nil
+303;Tatooine;14;m;30;138;Negative;15;Nil;Nil
+304;Hoth;8;f;20;120,6;Negative;11,5;Nil;Right lower first molar
+305;Jedha;7;f;19,1;110,9;Negative;8,5;Nil;Right Lower Second Molar
+306;Tatooine;7;f;22,1;120,7;Negative;11,5;Nil;Nil
+307;Alderaan;14;m;32;134,8;Negative;9;Positive;Nil
+308;Bespin;10;m;27,1;130;Negative;12;Nil;Nil
+309;Ilum;7;f;20;121,7;Negative;11,5;Positive;Right Upper & Lower second Molar
+310;Tatooine;6;f;18;106,8;Negative;12;Nil;Nil
+311;Bespin;11;f;24,2;132,3;Negative;12;Nil;Nil
+312;Tython;7;f;16;116,1;Negative;10;Nil;Nil
+313;Ach-to;7;f;14,5;112,5;Negative;10;Nil;Nil
+314;Dagobah;6;m;13;100,2;Negative;14;Nil;Nil
+315;Ossus;14;m;28;139,5;Negative;9,5;Nil;Nil
+316;Endor;7;f;15;115;Negative;13;Nil;Nil
+317;Dagobah;6;m;15,5;104,3;Negative;12;Nil;Nil
+318;Bespin;8;m;22,5;122,2;Negative;9,5;Nil;Nil
+319;Hoth;7;f;16,5;112;PV +ve;12;Nil;Nil
+320;Jedha;7;f;15;110,2;Negative;7,5;Nil;Nil
+321;Endor;8;f;21;122,7;Negative;13,5;Nil;Nil
+322;Bespin;8;m;20,5;126,8;Negative;12;Nil;Right Upper & Lower second molar
+323;Tatooine;9;m;25;126,5;Negative;10,5;Nil;Left Lower Second Molar
+324;Ach-to;10;m;22,5;126,5;Negative;12,5;Nil;Nil
+325;Ilum;13;m;31;148;Negative;11,5;Nil;Nil
+326;Endor;10;m;25;132,4;Negative;13;Nil;Nil
+327;Jedha;7;m;15;105,4;Negative;14,5;Nil;Upper Incisors on the right & left side
+328;Ossus;8;m;23;126,2;PF +ve;14;Nil;Nil
+329;Tython;7;f;17;114,7;PF +ve;13;Nil;Nil
+330;Tatooine;7;m;20;122,4;PF +ve;13,5;Nil;Nil
+331;Jedha;10;f;27;137,2;PF +ve;9,5;Nil;Nil
+332;Jedha;11;f;27;132,5;PF +ve;9;Nil;Nil
+333;Ossus;6;f;15;108,3;PF +ve;11,5;Nil;Upper right second molar
+334;Ilum;11;f;23;129,5;PF +ve;14,5;Nil;Nil
+335;Coruscant;6;m;16,5;106,4;PF +ve;8,5;Nil;Nil
+336;Bespin;6;m;14;103,1;PF +ve;10,5;Nil;Nil
+337;Endor;10;m;18,5;121,7;PF +ve;8,5;Nil;Nil
+338;Coruscant;6;f;16;111;PFPV +ve;7;Nil;Nil
+339;Ilum;7;f;11;95,7;PF +ve;13,5;Nil;Nil
+340;Tython;7;m;15;104,7;PV +ve;13;Nil;Nil
+341;Dagobah;10;m;20;120,8;PF +ve;11;Nil;Nil
+342;Dagobah;7;m;23;120;PF +ve;11,5;Nil;Nil
+343;Hoth;10;f;20,5;122;PF +ve;12,5;Nil;Nil
+344;Bespin;6;m;14;106,3;Negative;14;Nil;Nil
+345;Ach-to;12;m;27;138,4;Negative;11;Nil;Nil
+346;Ach-to;12;m;25;127,2;PF +ve;12,5;Nil;Nil
+347;Ilum;7;m;21;125;PF +ve;8,5;Nil;Nil
+348;Tython;12;m;27;132,6;PF +ve;9,5;Nil;Right lower first molar
+349;Alderaan;7;m;18;116,4;PF +ve;12,5;Nil;Right & Left lower first molar & premolar, Right & Left upper first molar
+350;Endor;7;m;18;113;PF +ve;11;Nil;Right lower first molar
+351;Tatooine;9;m;24,5;128;PF +ve;10;Nil;Nil
+352;Ossus;7;f;21;119,6;PF +ve;13,5;Nil;Nil
+353;Ossus;7;f;20;121,4;PF +ve;11,5;Nil;Nil
+354;Hoth;12;m;36;142,7;Negative;14;Nil;Nil
+355;Ilum;7;m;24,5;124,5;PF +ve;10;Nil;Nil
+356;Bespin;12;m;27;131,7;PF +ve;9;Nil;Nil
+357;Jedha;7;m;19;115;PF +ve;13,5;Nil;Nil
+358;Jedha;6;m;19;115,5;Negative;9,5;Nil;Nil
+359;Alderaan;8;m;23;124,4;Negative;10;Nil;Nil
+360;Endor;5;m;16;108;Negative;11;Nil;Left lower first premolar
+361;Endor;10;m;24,5;133,2;PF +ve;10;Nil;Nil
+362;Tatooine;7;f;19,5;116,4;PFPV +ve;6,5;Nil;Nil
+363;Hoth;7;f;25;128,5;Negative;10,2;Nil;Right ipper & lower first & second molar
+364;Endor;8;f;26,5;129,2;PF +ve;13;Nil;Nil
+365;Ach-to;5;m;15;99,6;PF +ve;9,5;Nil;Nil
+366;Alderaan;7;f;15;106,5;PF +ve;9,5;Nil;Right & Left lower first molar, Right lower first premolar
+367;Endor;5;m;15;104,1;Negative;12;Nil;Nil
+368;Bespin;5;m;14,9;98,6;Negative;9;Nil;Nil
+369;Ossus;10;m;21,5;121;Negative;11,5;Nil;Nil
+370;Tython;10;m;24;126,2;PF +ve;8;Nil;Nil
+371;Tatooine;9;f;25,5;128,7;PF +ve;9,8;Nil;Nil
+372;Ossus;8;m;23,5;126;PF +ve;11;Nil;Nil
+373;Coruscant;6;f;16;109,7;Negative;10,5;Nil;Nil
+374;Tython;7;m;23;121,3;PF +ve;11;Nil;Nil
+375;Tatooine;6;f;19,5;119,7;PF +ve;14;Nil;Right & Left lower first molar
+376;Hoth;8;m;22,5;123,7;PF +ve;9,5;Nil;Nil
+377;Dagobah;7;m;21,5;122,3;PF +ve;13;Nil;Nil
+378;Ossus;7;m;20;122,4;PF +ve;7,5;Nil;Nil
+379;Tatooine;7;m;17;111;PFPV +ve;9;Nil;Nil
+380;Hoth;7;f;19;118,1;PF +ve;7;Nil;Right lower second molar
+381;Tatooine;7;f;20,5;119,2;Negative;10;Nil;Right upper second molar
+382;Tython;12;f;24;129;Negative;10,5;Nil;Right lower first molar
+383;Dagobah;6;f;15,5;109,6;Negative;14;Nil;Nil
+384;Coruscant;5;f;19;109,2;PF +ve;12,5;Nil;Nil
+385;Ossus;6;f;14;107,5;Negative;12,5;Nil;Nil
+386;Ossus;8;f;15;112;PF +ve;10,8;Nil;Nil
+387;Dagobah;6;m;13;102;Negative;9,4;Nil;Nil
+388;Ilum;10;m;24,5;127;Negative;12,5;Nil;Nil
+389;Ilum;11;m;34;145;Negative;10;Nil;Nil
+390;Coruscant;10;m;21;127;Negative;12,5;Nil;Nil
+391;Bespin;8;m;13;104,5;Negative;12,5;Nil;Nil
+392;Jedha;7;m;17;112;Negative;14,1;Nil;Nil
+393;Alderaan;6;m;12;100,5;Negative;10,8;Nil;Nil
+394;Dagobah;6;m;15,5;111;Negative;10,8;Nil;Upper first & second Incisors
+395;Endor;9;f;16,5;112;Negative;12,5;Nil;Nil
+396;Hoth;6;m;11;94;Negative;10,8;Nil;Nil
+397;Alderaan;8;m;20;127,5;Negative;10,8;Itching on hand & feet;Left Upper second molar
+398;Tython;8;m;19,5;116,5;Negative;9,4;Nil;Upper right second molar
+399;Coruscant;9;m;20,5;121;PF +ve;12,5;Nil;Nil
+400;Tython;9;m;21;123;Negative;12,5;Nil;Nil
+401;Ossus;10;m;19,5;123,5;Negative;9,4;Nil;Nil
+402;Endor;8;m;20;119;Negative;12,5;on hand & feet;Nil
+403;Dagobah;8;m;15,7;117;Negative;12;Nil;Right & Left lower left first premolar
+404;Tatooine;8;m;20,8;126,3;Negative;13;Nil;Nil
+405;Hoth;7;m;15,2;110,5;Negative;13;Nil;Nil
+406;Tython;5;f;10,7;105,5;PF +ve;7;Nil;Nil
+407;Ach-to;12;m;40,8;155,5;PF +ve;8;Nil;Nil
+408;Tython;7;m;NA;NA;PF +ve;12;Nil;Nil
+409;Endor;9;m;15,9;119,7;Negative;8;Nil;Nil
+410;Ilum;16;m;40;152,5;Negative;12;Nil;Nil
+411;Ach-to;9;m;24;126,7;Negative;8,5;Nil;Nil
+412;Jedha;12;m;25,5;137;Negative;10;Nil;Nil
+413;Endor;6;m;15;105,3;Negative;8;Nil;Nil
+414;Ossus;13;m;35;147;Negative;12;Nil;Nil
+415;Jedha;7;m;15,4;109,5;Negative;9;Nil;Nil
+416;Coruscant;12;m;35;145,5;PF +ve;13;Nil;Nil
+417;Ossus;7;m;15;109;PFPV +ve;11;Nil;Nil
+418;Bespin;10;m;25,1;134;PF +ve;9,5;Nil;Nil
+419;Dagobah;10;m;20,3;123,5;PF +ve;12;Nil;Nil
+420;Hoth;12;m;20,8;126;PF +ve;12,5;Nil;Nil
+421;Tython;12;m;43,1;155,2;PF +ve;11;Nil;Nil
+422;Alderaan;7;m;10,8;102,7;Negative;10,5;Nil;Nil
+423;Bespin;13;m;20,9;129,3;Negative;7,5;Nil;Right & Left lower first molar
+424;Hoth;10;m;15,8;119;Negative;9;Nil;Right & Left lower first premolar, first molar
+425;Dagobah;11;f;25,3;128,5;Negative;8,5;Nil;Nil
+426;Endor;9;m;20,6;130;Negative;10,5;Nil;Nil
+427;Coruscant;7;f;15;111,5;Negative;8,5;Nil;Left Lower first molar, first premolar
+428;Bespin;8;f;15,9;121,5;Negative;10;Nil;Nil
+429;Alderaan;8;f;19;123;Negative;10,5;Nil;Nil
+430;Ach-to;14;m;20,9;130,3;PF +ve;10;Nil;Nil
+431;Jedha;14;m;30;142,2;Negative;11,6;Nil;Nil
+432;Hoth;7;m;15,6;119;Negative;8,5;Nil;Nil
+433;Alderaan;9;m;15;109,9;PF +ve;8;Nil;Nil
+434;Tatooine;9;m;18;121,5;PF +ve;8,5;Nil;Nil
+435;Coruscant;7;m;15,3;112,3;PF +ve;10;Nil;Right lower first premolar, Left lower first molar & premolar
+436;Ach-to;8;f;20,2;121,7;PF +ve;10,5;Nil;Nil
+437;Jedha;10;m;25,4;137;PF +ve;10,5;Nil;Nil
+438;Coruscant;7;f;16;118,8;PF +ve;7,5;Nil;Upper Right & Left Second Molar
+439;Alderaan;14;f;45,6;149;PF +ve;11;Nil;Nil
+440;Coruscant;12;m;25;137;PF +ve;12;Nil;Right upper second molar
+441;Dagobah;9;f;20,7;128,5;PF +ve;10;Nil;Nil
+442;Jedha;8;f;15,4;116,5;PF +ve;10;Nil;Nil
+443;Ilum;6;m;20,6;127,8;PF +ve;11;Nil;Left Lower Second Molar
+444;Hoth;8;m;20,1;122,3;PF +ve;7,5;Nil;Upper Right Second Molar
+445;Ilum;6;m;16,5;117,8;Negative;10,5;Nil;Nil
+446;Hoth;6;m;14;105;PF +ve;13;Nil;Nil
+447;Tython;8;m;15,8;118,4;PF +ve;10;Nil;Nil
+448;Jedha;8;f;18;122,6;Negative;9,5;Nil;Right first premolar
+449;Dagobah;6;f;16;109;PF +ve;9;Nil;Nil
+450;Tatooine;8;f;19;121,3;PF +ve;8,5;Nil;Right & Left Second Molar
