@@ -182,4 +182,18 @@ ggplot(na.omit(df1), aes(x=age, y=hemoglobin))  +theme_bw()+facet_wrap(~district
 table(df1$rdt)
 
 ```
+```{r}
+##Linear models in R
+
+model1<-lm(hemoglobin ~ weight.kg., data = df1)
+summary(model1)
+
+
+model2<-lm(hemoglobin ~ weight.kg. + rdt, data = df1)
+summary(model2)
+
+plot(model1$residuals)
+abline(model1)
+
+```
 
