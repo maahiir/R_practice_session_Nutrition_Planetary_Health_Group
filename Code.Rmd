@@ -12,7 +12,6 @@ library(ggplot2)
 library(haven)
 library(readr)
 library(ggpubr)
-library(ggpubr)
 Sys.setenv(LANG="en")
 #install.packages("ggpubr")
 ```
@@ -97,7 +96,7 @@ age_vector <- my_data_frame$age
 
 ```{r}
 #Data frames in R
-data()
+data() ##gives you a list of all the in built data frames in R
 mydata<-trees
 
 head(mydata)
@@ -109,25 +108,35 @@ mydata[,c(2,3)]
 ```{r}
 #loading csv and SAS data frames in R
 
-df1<-read.csv("C:/Users/localuser/Documents/Nutrition_planetary_health_R/R_practice_session_Nutrition_Planetary_Health_Group/R_practic1.csv",dec = ",",sep = ";",header = T)
+df1<-read.csv("C:/Users/localuser/Documents/Nutrition_planetary_health_R/R_practice_session_Nutrition_Planetary_Health_Group/R_practic1.csv")
+
+df1<-read.csv("C:/Users/localuser/Documents/Nutrition_planetary_health_R/R_practice_session_Nutrition_Planetary_Health_Group/R_practic1.csv",dec = ",",sep = ";",header = T) ##csv dataframe
 
 
-df2<-read_sas("C:/Users/localuser/Documents/Nutrition_planetary_health_R/R_practice_session_Nutrition_Planetary_Health_Group/skinproduct_vfdemo.sas7bdat")
+df2<-read_sas("C:/Users/localuser/Documents/Nutrition_planetary_health_R/R_practice_session_Nutrition_Planetary_Health_Group/skinproduct_vfdemo.sas7bdat") ##sas dataframe
 names(df2$ProductKey)
 
 
 str(df1)
 
-df1$age<-as.numeric(df1$age)
+
 ```
 
 ```{r}
+##data cleaning
+
+df1$age<-as.numeric(df1$age)
 df1<-df1%>%mutate(sex=case_when(sex=="m"~"male", sex =="Male"~"male", sex=="f"~"female",sex=="Female"~"female", TRUE~sex))
 df1$sex<-as.factor(df1$sex)
 
 unique(df1$rdt)
+
+#renaming a column
+df1<-df1%>%rename(Age=age)
+names(df1)[3]<-"age"
 ```
 
+##ggplots in R
 
 ```{r}
 ##Let us start working with ggplot 
